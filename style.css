@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 10px 10px;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229, 205, 205);
+}
+.formulaire{
+    display: inline-grid;
+}
+.formulaire h1{
+    text-decoration: none;
+}
+.formulaire form span{
+    font-weight: bold;
+    margin-left: 0px;
+}
+.formulaire form input, textarea{
+    border: 3px inset #78a261;
+    background-color: rgb(255, 251, 251);
+    margin-left: 0px;
+}
+.formulaire form button{
+    background-color: #455b37;
+    color: #e5cdcd;
+    padding:5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulaire form button:hover{
+    background-color: #5b7c4c;
+}
+.formulaire form button:active{
+    background-color: #7fab68;
+}
+article{
+    border: 3px inset #78a261;
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+    margin-left: 0px;
+
+}
+.name_af{
+    border: 3px inset #78a261;
+    background-color: rgb(232, 203, 203);
+}
+#plus_comments{
+    background-color: #455b37;
+    color: #e5cdcd;
+    padding:5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
